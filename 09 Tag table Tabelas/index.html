@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>09 Tag Table Tabelas</title>
+</head>
+<body>
+    <table border="1px"><!--Criação da tabela-->
+        <tr><!--Tag de criação de linhas na tabela-->
+            <th>Código</th><!--Criação de colunas e cabeçalo da tabela-->
+            <th>Produto</th>
+            <th>Valor</th>
+        </tr>
+        <tr>
+            <td>01</td><!--Criação de colunas e inserção de dados na tabela-->
+            <td>Carrinho</td>
+            <td>25,00</td>
+        </tr>
+        <tr>
+            <td>02</td>
+            <td>Cartas</td>
+            <td rowspan="2">10,00</td><!--rowspan = serve para ocupar as proximas linhas da tabela na posição vertical, considerando onde o atributo "rowspan" for inserido -->
+        </tr>
+        <tr>
+            <td>03</td>
+            <td>Bola</td>
+        </tr>
+        <tr>
+            <td>04</td>
+            <td>Video Game</td>
+            <td>350,00</td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">Total</td><!--colspan = serve para ocupar as próximas colunas da tabela na posição horizontal, considerando onde o atributo "colspan" for inserido-->
+            <td>395,00</td>
+        </tr>
+    </table>
+</body>
+</html>
